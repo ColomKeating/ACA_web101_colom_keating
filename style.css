@@ -1,3 +1,8 @@
+
+.image {
+  width: 50%
+}
+
 /* Extra Small and up (Portrait Phones) */
             footer {
                 position: fixed;
@@ -9,23 +14,32 @@
                 text-align: center;
               }
               .content{
-                color: green
+                color: black
               }
 
               /* Extra Small and up (Portrait Phones) */
 
 /* Small and up (Landscape Phones) */
 @media (min-width: 576px) {
+  body{
+    background-color: gray;
+  }
 
 }
 
 /* Medium and up (Tablets) */
 @media (min-width: 768px) {
+  body {
+    background-color: blue
+  }
 
 }
 
 /* Large and up (Desktops) */
 @media (min-width: 992px) {
+  body{
+    background-color: pink;
+  }
 
 }
 
